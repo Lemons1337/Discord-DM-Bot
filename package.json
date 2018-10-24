@@ -1,0 +1,31 @@
+{
+    "name": "discord-dm-bot",
+    "version": "1.0.0",
+    "description": "Discord Mass DM Bot for mass advertising and whatever you want!",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^4.16.3",
+      "fs": "^0.0.1-security",
+      "discord.js": "^11.4.2",
+      "readline": "^1.3.0",
+      "chalk": "^2.4.1"
+    },
+    "engines": {
+      "node": "8.12.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Lemons1337/Discord-DM-Bot"
+    },
+    "keywords": [
+      "discord spam",
+      "discord mass dm",
+      "discord advertising"
+    ],
+    "author": "Lemons1337",
+    "contributors": [],
+    "license": "MIT"
+  }
