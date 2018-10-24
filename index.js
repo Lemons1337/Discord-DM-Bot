@@ -16,7 +16,7 @@ const rl = readline.createInterface({
 });
 
 var i = 0;
-rl.question(chalk.blue('Guild Invite to Mass DM: '), (invite) => {
+rl.question(chalk.blue('Invite Code: '), (invite) => {
     rl.question(chalk.blue('Message to Send: '), (message) => {
         setInterval(() => {
             if (i >= tokens.length) return;
