@@ -33,7 +33,6 @@ class Bot {
                             }
                         });
                     } catch(err) {
-                        console.log(err);
                         console.log('Invalid Guild ID!');
                     }
                 });
