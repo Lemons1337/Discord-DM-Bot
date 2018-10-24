@@ -21,7 +21,9 @@ class Bot {
                     authorization: this.token
                 },
             }, (error, response, body) => {
+                if (!body) return;
                 var json = JSON.parse(body);
+                if (!json || !json.guild || !json.guild.id) return;
                 var guild = json.guild.id;
                 try {
                     this.client.guilds.get(guild).members.map(member => {
