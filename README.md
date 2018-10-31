@@ -37,4 +37,4 @@ When answered the bot will start it's process!
 
 ## Contact
 
-Telegram Chat: https://t.me/NanoTheDroid
+Telegram Chat: https://t.me/DiscordTools
