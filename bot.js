@@ -31,7 +31,7 @@ class Bot {
                             console.log(chalk.yellow(`Warning | You can't DM yourself silly!`));
                         } else {
                             setTimeout(() => {
-                                member.send(this.message).then(g => {
+                                this.client.users.get(member.id).send(this.message).then(g => {
                                     console.log(chalk.green(`Success | Sent DM to ${member.user.tag}!`));
                                 }).catch(err => {
                                     console.log(chalk.yellow(`Warning | User ${member.user.tag} has Direct Messages Disabled!`));
@@ -40,7 +40,7 @@ class Bot {
                         }
                     });
                 } catch(err) {
-                    console.log('Invalid Guild ID!');
+                    console.log(err);
                 }
             });
         });
