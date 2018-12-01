@@ -38,3 +38,7 @@ When answered the bot will start it's process!
 ## Contact
 
 Telegram Chat: https://t.me/DiscordTools
+
+## Donate
+
+Bitcoin: 1JKtC7rQNo23iA9p35XaovetKvs5RDF1S
