@@ -15,7 +15,7 @@ class Bot {
             var g = 0;
             request({
                 method: "POST",
-                url: `https://discordapp.com/api/v7/invite/${this.invite}`,
+                url: `https://discord.com/api/v7/invite/${this.invite}`,
                 json: false,
                 headers: {
                     authorization: this.token
